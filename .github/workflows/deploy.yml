@@ -15,9 +15,9 @@ jobs:
 
       - name: Deploy to Render
         env:
-          RENDER_API_KEY: rnd_8c75ZPu09TTF9eFldKn23Ja5l6kY
+          RENDER_API_KEY: rnd_FQd1xUErbbeam81AZCQGhkO9KZ3c
 
-          RENDER_SERVICE_ID: srv-d0u6s53e5dus738poij0
+          RENDER_SERVICE_ID: srv-d0u9a46mcj7s739f2alg
         run: |
           curl -X POST \
             -H "Accept: application/json" \
